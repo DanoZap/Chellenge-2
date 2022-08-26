@@ -1,0 +1,27 @@
+* {
+    font-family: 'Outfit', sans-serif !important;
+    color: #fff !important; 
+}
+#mbg {
+    background-color: hsl(217, 54%, 11%);
+}
+#cbg {
+    background-color: hsl(216, 50%, 16%);
+}
+#img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+#img:active {
+    mask-image: url(../images/icon-view.svg);
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+#hr {
+    background-color:  hsl(215, 32%, 27%);
+}
+#i, #eth, #coin-name:active{
+    cursor: pointer;   
+    color: rgb(117, 243, 243) !important;
+}
+@import "../node_modules/bootstrap/scss/bootstrap";
